@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oblutak</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
+
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        .my-color {
+            color: #9ab794;
+        }
+
+        .my-bg-color {
+            background-color: #b2cbae;
+        }
+
+        .my-other-bg-color {
+            background-color: #f4f9ff;
+        }
+
+        .bg-image {
+            background-image: url(images/shutterstock_264839273_obradjeno2.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        hr.head {
+            border: 3px solid green;
+            width: 80%;
+        }
+
+        hr {
+            border: 3px solid green;
+            width: 90%;
+        }
+
+        .buttonclick {
+            transition: 0.5s all ease;
+        }
+
+        .buttonclick:hover {
+            background-color: rgb(196, 196, 196);
+        }
+
+        hr.footer {
+            width: 12%;
+        }
+
+        .fa-solid,
+        .fa-regular {
+            font-size: 1.5rem;
+            color: #b2cbae;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex">
+        <div class="col-3">
+            <h1 class="my-color fw-bolder mt-5 mb-0 mx-5 px-4 pt-5 pb-0">UKRASNI OBLUTAK</h1>
+            <hr class="head">
+            <h4 class="fw-bolder ms-5 ps-4 pb-5">ZA UREĐENJE EKSTERIJERA I INTERIJERA</h4>
+        </div>
+
+        <div class="col-9 pe-0 pb-5 bg-image">
+        </div>
+    </div>
+    </div>
+
+    <div class="my-bg-color">
+        <div class="container py-5">
+            <div class="d-flex justify-content-center">
+                <div class="col-5">
+                    <h4 class="fw-bolder text-center lh-base pb-2">IZVRSNA PONUDA UKRASNOG OBLUTKA PO IZUZETNO POVOLJNIM
+                        CIJENAMA</h4>
+                    <p class="text-center">ŠIROK IZBOR GRANULACIJA, BOJA I OBLIKA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-md-6 col-12 d-flex justify-content-center py-5">
+            <img src="images/IMG_20211214_1332421.png" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 col-12 my-other-bg-color py-5 ps-5 pe-0">
+            <h4 class="fw-bolder pb-3 pt-3">BIJELI MRAMORNI OBLUTAK</h4>
+            <h3 class="fw-bolder my-color">OBLIKOVANI BIJELI OBLUTAK</h3>
+            <hr>
+            <p>Granulacija:</p>
+            <div class="d-flex">
+                <div class="col-4">
+                    <p class="mb-0">05-15 mm</p>
+                    <p>35-50 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <p class="mb-0">15-35 mm</p>
+                    <p>50-80 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/uteg2.png" class="img-fluid w-50">
+                </div>
+            </div>
+
+            <button type="button" class="my-bg-color fw-bolder buttonclick p-3 border-0 rounded" data-bs-toggle="modal"
+                data-bs-target="#oblutakModal">Cijena na upit</button>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-md-6 col-12 my-other-bg-color py-5 ps-5 pe-0">
+            <h4 class="fw-bolder pb-3 pt-3">BIJELI MRAMORNI OBLUTAK</h4>
+            <h3 class="fw-bolder my-color">LOMLJENI BIJELI OBLUTAK</h3>
+            <hr>
+            <p>Granulacija:</p>
+            <div class="d-flex">
+                <div class="col-4">
+                    <p class="mb-0">04-08 mm</p>
+                    <p>16-32 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <p class="mb-0">08-16 mm</p>
+                    <p>32-64 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/uteg2.png" class="img-fluid w-50">
+                </div>
+            </div>
+
+            <button type="button" class="my-bg-color fw-bolder buttonclick p-3 border-0 rounded" data-bs-toggle="modal"
+                data-bs-target="#oblutakModal">Cijena na upit</button>
+        </div>
+
+        <div class="col-md-6 col-12 d-flex justify-content-center py-5">
+            <img src="images/IMG_20211214_132811.png" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-md-6 col-12 d-flex justify-content-center py-5">
+            <img src="images/IMG_20211214_124018.png" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 col-12 my-other-bg-color py-5 ps-5 pe-0">
+            <h4 class="fw-bolder pb-3 pt-3">CRNI GRANITNI OBLUTAK</h4>
+            <h3 class="fw-bolder my-color">OBLIKOVANI CRNI OBLUTAK</h3>
+            <hr>
+            <p>Granulacija:</p>
+            <div class="d-flex">
+                <div class="col-4">
+                    <p class="mb-0">15-25 mm</p>
+                    <p>40-70 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <p class="mb-0">25-40 mm</p>
+                    <p>70-100 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/uteg2.png" class="img-fluid w-50">
+                </div>
+            </div>
+
+            <button type="button" class="my-bg-color fw-bolder buttonclick p-3 border-0 rounded" data-bs-toggle="modal"
+                data-bs-target="#oblutakModal">Cijena na upit</button>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-md-6 col-12 my-other-bg-color py-5 ps-5 pe-0">
+            <h4 class="fw-bolder pb-3 pt-3">CRNI GRANITNI OBLUTAK</h4>
+            <h3 class="fw-bolder my-color">LOMLJENI CRNI OBLUTAK</h3>
+            <hr>
+            <p>Granulacija:</p>
+            <div class="d-flex">
+                <div class="col-4">
+                    <p class="mb-0">04-08 mm</p>
+                    <p>20-40 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <p class="mb-0">08-20 mm</p>
+                    <p>40-70 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/uteg2.png" class="img-fluid w-50">
+                </div>
+            </div>
+
+            <button type="button" class="my-bg-color fw-bolder buttonclick p-3 border-0 rounded" data-bs-toggle="modal"
+                data-bs-target="#oblutakModal">Cijena na upit</button>
+        </div>
+
+        <div class="col-md-6 col-12 d-flex justify-content-center py-5">
+            <img src="images/IMG_20211214_123729.png" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-md-6 col-12 d-flex justify-content-center py-3">
+            <img src="images/granitni_oblutak.png" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 col-12 my-other-bg-color py-5 ps-5 pe-0">
+            <h4 class="fw-bolder pb-3 pt-3">GRANIT "ZEBRA"</h4>
+            <h3 class="fw-bolder my-color">OBLIKOVANI GRANITNI OBLUTAK</h3>
+            <hr>
+            <div class="d-flex">
+                <div class="col-4">
+                    <p>Granulacija:</p>
+                    <p>40-100 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/uteg2.png" class="img-fluid w-50">
+                </div>
+            </div>
+
+            <button type="button" class="my-bg-color fw-bolder buttonclick p-3 border-0 rounded" data-bs-toggle="modal"
+                data-bs-target="#oblutakModal">Cijena na upit</button>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-md-6 col-12 my-other-bg-color py-5 ps-5 pe-0">
+            <h4 class="fw-bolder pb-3 pt-3">CRVENI OBLUTAK</h4>
+            <h3 class="fw-bolder my-color">OBLIKOVANI CRVENI OBLUTAK</h3>
+            <hr>
+            <div class="d-flex">
+                <div class="col-4">
+                    <p>Granulacija:</p>
+                    <p>40-100 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/uteg2.png" class="img-fluid w-50">
+                </div>
+            </div>
+
+            <button type="button" class="my-bg-color fw-bolder buttonclick p-3 border-0 rounded" data-bs-toggle="modal"
+                data-bs-target="#oblutakModal">Cijena na upit</button>
+        </div>
+
+        <div class="col-md-6 col-12 d-flex justify-content-center py-3">
+            <img src="images/crveni_oblikovani.png" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-md-6 col-12 d-flex justify-content-center py-3">
+            <img src="images/IMG_20211214_135342.png" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 col-12 my-other-bg-color py-5 ps-5 pe-0">
+            <h4 class="fw-bolder pb-3 pt-3">CRVENI OBLUTAK</h4>
+            <h3 class="fw-bolder my-color">LOMLJENI CRVENI OBLUTAK</h3>
+            <hr>
+            <div class="d-flex">
+                <div class="col-4">
+                    <p>Granulacija:</p>
+                    <p>40-100 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/uteg2.png" class="img-fluid w-50">
+                </div>
+            </div>
+
+            <button type="button" class="my-bg-color fw-bolder buttonclick p-3 border-0 rounded" data-bs-toggle="modal"
+                data-bs-target="#oblutakModal">Cijena na upit</button>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-md-6 col-12 my-other-bg-color py-5 ps-5 pe-0">
+            <h4 class="fw-bolder pb-3 pt-3">ZELENI OBLUTAK</h4>
+            <h3 class="fw-bolder my-color">LOMLJENI ZELENI OBLUTAK</h3>
+            <hr>
+            <div class="d-flex">
+                <div class="col-4">
+                    <p>Granulacija:</p>
+                    <p>40-100 mm</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/uteg2.png" class="img-fluid w-50">
+                </div>
+            </div>
+
+            <button type="button" class="my-bg-color fw-bolder buttonclick p-3 border-0 rounded" data-bs-toggle="modal"
+                data-bs-target="#oblutakModal">Cijena na upit</button>
+        </div>
+
+        <div class="col-md-6 col-12 d-flex justify-content-center py-3">
+            <img src="images/IMG_20211214_135641.png" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="my-bg-color">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-6 bg-light p-5">
+                    <form class="d-flex flex-column">
+                        <input type="text" class="form-control my-3 shadow-sm" placeholder="Ime i prezime"
+                            aria-label="Ime i prezime" name="imeprezime" required>
+
+                        <input type="email" class="form-control my-3 shadow-sm" placeholder="E-mail" aria-label="E-mail"
+                            name="email" required>
+
+                        <input type="tel" class="form-control my-3 shadow-sm" placeholder="Telefon" aria-label="Telefon"
+                            name="telefon" required>
+
+                        <textarea class="form-control shadow-sm my-3" rows="4" placeholder="Poruka"
+                            name="poruka"></textarea>
+                        <div class="d-flex">
+                            <input class="form-check-input me-1" type="checkbox" id="privatnost"> <label
+                                for="privatnost" name="privatnost" required> Slažem se</label><br>
+                        </div>
+                        <small id="privatnostSmall" class="form-text">Korištenjem ovog obrasca prihvaćate prikupljanje i
+                            obradu osobnih podataka danih u obrascu bez kojih vaš zahtjev u obrascu ne može biti
+                            ispunjen.</small>
+
+                        <button type="submit"
+                            class="align-self-center my-bg-color mt-4 mb-1 fw-bolder buttonclick p-3 border-0 rounded">Pošalji
+                            upit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row flex-column justify-content-center align-self-center text-center">
+            <h2 class="my-color text-center fw-bolder">KONTAKT</h2>
+            <hr class="mx-auto footer">
+            <i class="fa-solid fa-mobile"></i>
+            <p class="mb-0 mt-2">+385 99 43 75 411</p>
+            <p>+385 99 383 26 54</p>
+
+            <i class="fa-regular fa-envelope"></i>
+            <p>info@design4you.hr</p>
+
+            <i class="fa-solid fa-globe"></i>
+            <p>ukrasnioblutak.hr</p>
+
+            <div>
+                <img src="images/logo_firme.png">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade col-6" id="oblutakModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Upit</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center">
+                        <div class="col-8 p-2">
+                            <form class="d-flex flex-column">
+                                <input type="text" class="form-control my-3 shadow-sm" placeholder="Ime i prezime"
+                                    aria-label="Ime i prezime" name="imeprezime" required>
+
+                                <input type="email" class="form-control my-3 shadow-sm" placeholder="E-mail" aria-label="E-mail"
+                                    name="email" required>
+
+                                <input type="tel" class="form-control my-3 shadow-sm" placeholder="Telefon" aria-label="Telefon"
+                                    name="telefon" required>
+
+                                <textarea class="form-control shadow-sm my-3" rows="4" placeholder="Poruka"
+                                    name="poruka"></textarea>
+                                <div class="d-flex">
+                                    <input class="form-check-input me-1" type="checkbox" id="privatnost"> <label
+                                        for="privatnost" name="privatnost" required> Slažem se</label><br>
+                                </div>
+                                <small id="privatnostSmall" class="form-text">Korištenjem ovog obrasca prihvaćate prikupljanje i
+                                    obradu osobnih podataka danih u obrascu bez kojih vaš zahtjev u obrascu ne može biti
+                                    ispunjen.</small>
+
+                                <button type="submit"
+                                    class="align-self-center my-bg-color mt-4 mb-1 fw-bolder buttonclick p-3 border-0 rounded">Pošalji
+                                    upit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
